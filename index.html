@@ -19,7 +19,7 @@
           <li class="fontsize18 menu-item btn3"><a href="#Course">SOLUTIONS</a></li>
           <li class="fontsize18 menu-item btn3"><a href="#News">MARKET</a></li>
           <li class="fontsize18 menu-item btn3"><a href="#Contact">CONTACT</a></li>
-          <button class="fontsize18 menu-item btn2">LOGIN</a></button>
+          <input type="button" class="fontsize18 menu-item" id="logbtn" value="LOGIN"></a></button>
         </ul>
       </nav></li>
     </ul>
@@ -252,6 +252,12 @@
     <!-- この中に記述していく -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+    document.getElementById("logbtn").onclick = function () {
+      location.href = 'http://localhost/aeg01/login.php';
+    }
+    </script>
+
 </body>
 
 </html>
